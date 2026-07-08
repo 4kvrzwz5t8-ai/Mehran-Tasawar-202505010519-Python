@@ -1,0 +1,7 @@
+Bug found in main.py:
+The program did not call the calculate_total() function correctly.
+The fix was to import calculate_total from food_order.py and assign:
+
+total = calculate_total(price, quantity)
+
+Also handled invalid price and invalid quantity before printing the result.
